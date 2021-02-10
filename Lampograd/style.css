@@ -174,9 +174,9 @@ body {
   margin-right: 7px;
 }
 
-.b1:hover:active,
-.b2:hover:active,
-.b3:hover:active
+.b1:hover,
+.b2:hover,
+.b3:hover
  {
   display: flex;
   background-color: white;
@@ -187,7 +187,18 @@ body {
   transform: scale(0.9);
 }
 
-
+.b1:active,
+.b2:active,
+.b3:active
+ {
+  display: flex;
+  background-color: white;
+  -moz-box-shadow: 0 0 2px #000000;
+  -webkit-box-shadow: 0 0 2px #000000;
+  box-shadow: 0 0 3px #ffffff74;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
 
 
 body .content .lenta {
