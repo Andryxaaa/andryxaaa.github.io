@@ -21,7 +21,7 @@ body {
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)
   ),
-  url(img/6.jpg);
+  url(/img/6.jpg);
   background-size: auto;
   background-position: 50%;
   margin: 0;
