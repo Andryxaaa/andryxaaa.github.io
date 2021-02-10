@@ -73,6 +73,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     align-items: center;
     justify-content: center;
+        font-weight: 600;
   }
   
   .b2 {
