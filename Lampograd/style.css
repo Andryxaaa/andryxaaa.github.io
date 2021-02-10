@@ -299,6 +299,7 @@ body .content .lenta {
     margin: 0;
     font-size: 20px;
     line-height: 26px;
+    font-weight: 500;
   }
   .block_info .info_name{
     margin: 0;
