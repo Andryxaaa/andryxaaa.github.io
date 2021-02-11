@@ -65,6 +65,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     align-items: center;
     justify-content: start;
+   font-weight: 600;
   }
   .content .menu .menu__punkt .b4 {
     display: flex;
@@ -73,7 +74,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     align-items: center;
     justify-content: center;
-        font-weight: 600;
+    font-weight: 600;
   }
   
   .b2 {
