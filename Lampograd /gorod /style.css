@@ -440,7 +440,7 @@ body .content .lenta {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 194px;
+  width: auto;
   height: 25px;
 
   margin-right: 5px;
