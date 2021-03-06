@@ -525,24 +525,19 @@ div.yama_block {
     margin-left: 0px;
     width: 620px;
     height: 620px;
-    background: rgb(32, 32, 32);
-    background: linear-gradient(145deg, #141414, rgba(45, 45, 45, 1));
+
     border-radius: 5px;
   
   }
   .lenta .status {
     display: flex;
     flex-direction: column;
-  
-    background: rgb(32, 32, 32);
-    background: linear-gradient(145deg, #141414, #2d2d2d);
+
     width: 250px;
     height: auto;
     border-radius: 15px;
     padding: 0;
-    -moz-box-shadow: 0 0 2px #000000a5;
-    -webkit-box-shadow: 0 0 2px#000000a5;
-    box-shadow: 0 0 5px #000000a5;
+
   }
   .status .f1 {
     display: flex;
@@ -585,8 +580,6 @@ div.yama_block {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 0px;
-    background: rgb(32, 32, 32);
-    background: linear-gradient(145deg, #141414, rgba(45, 45, 45, 1));
     border-radius: 5px;
   
   }
@@ -651,8 +644,7 @@ div.yama_block {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 0px;
-    background: rgb(32, 32, 32);
-    background: linear-gradient(145deg, #141414, rgba(45, 45, 45, 1));
+
     border-radius: 5px;
   
   }
@@ -766,8 +758,7 @@ div.yama_block {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 0px;
-    background: rgb(32, 32, 32);
-    background: linear-gradient(145deg, #141414, rgba(45, 45, 45, 1));
+ 
     border-radius: 5px;
   
   }
@@ -881,8 +872,7 @@ div.yama_block {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 0px;
-    background: rgb(32, 32, 32);
-    background: linear-gradient(145deg, #141414, rgba(45, 45, 45, 1));
+
     border-radius: 5px;
   
   }
