@@ -320,6 +320,13 @@ body .content .lenta {
   height: 35px;
   margin-right: 20px;
 }
+.photo_ar .img_ar {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  -webkit-width: 35px;
+  -webkit-height: 35px;
+}
 
 .block3 .block_flag {
   display: flex;
