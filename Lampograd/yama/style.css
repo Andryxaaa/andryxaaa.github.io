@@ -236,6 +236,25 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     justify-content: center;
 
 }
+.status .cordinat {
+  display: flex;
+  width: auto;
+  height: 25%;
+  margin-left: 15px;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.cordinat .h2 {
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    font-size: 20px;
+  }
+
 .status .f2,.f3,.f4 {
     display: flex;
     width: 180px;
@@ -548,6 +567,15 @@ div.yama_block {
     justify-content: center;
 
 }
+.status .cordinat {
+  display: flex;
+  width: auto;
+  height: auto;
+
+  align-items: center;
+  justify-content: flex-start;
+
+}
   .status .f2,.f3,.f4 {
     display: flex;
     width: 180px;
@@ -559,7 +587,7 @@ div.yama_block {
     font-size: 20px;
     align-items: center;
     justify-content: flex-start;
-
+    font-weight: 100;
 
 }
 .status h1 {
