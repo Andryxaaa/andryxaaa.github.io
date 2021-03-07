@@ -322,10 +322,12 @@ body .content .lenta {
 }
 .photo_ar .img_ar {
   display: flex;
-  width: 35px;
-  height: 35px;
-  -webkit-width: 35px;
-  -webkit-height: 35px;
+  width: auto;
+  height: auto;
+  -webkit-width: auto;
+  -webkit-height: auto;
+  -o-width: auto;
+  -o-height: auto;
 }
 
 .block3 .block_flag {
