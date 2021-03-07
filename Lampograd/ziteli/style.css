@@ -282,8 +282,8 @@ body .content .lenta {
 
   width: 97%;
   font-weight: 600;
-  height: 30px;
-  margin-top: 5px;
+  height: auto;
+  margin-top: 10px;
 }
 
 .nickname .h {
@@ -291,6 +291,7 @@ body .content .lenta {
   font-size: 21px;
   color: #007bff;
   text-shadow: 0px 2px 2px #0000005d;
+
 }
 .ball {
   display: flex;
@@ -569,6 +570,15 @@ body .content .lenta {
     margin-right: 10px;
     margin-left: 10px;
   }
+
+  .block_info .zitel {
+    box-shadow: -4px -4px 5px rgba(58, 58, 58, 0.376),
+      4px 4px 12px rgba(0, 0, 0, 0.5);
+  }
+
+  .nickname .h {
+    width: 90px;
+  }
 }
 
 @media screen and (max-width: 473px) {
@@ -581,11 +591,12 @@ body .content .lenta {
     height: auto;
     border-radius: 10px;
 
-    box-shadow: rgba(0, 0, 0, 0.5) 12px 12px 24px 0px,
-      rgba(58, 58, 58, 0.376) -12px -12px 24px 0px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 12px 12px 24px 0px,
-      rgba(58, 58, 58, 0.376) -12px -12px 24px 0px;
+
+    box-shadow: -4px -4px 5px rgba(58, 58, 58, 0.376),
+      4px 4px 12px rgba(0, 0, 0, 0.5);
+
   }
+
   .zitel .block_status {
     display: flex;
     flex-direction: column;
@@ -635,6 +646,9 @@ body .content .lenta {
     height: 50%;
     margin-top: 10px;
     padding-bottom: 7.5px;
+  }
+  .nickname .h {
+    width: 90px;
   }
 }
 
@@ -726,5 +740,8 @@ body .content .lenta {
     justify-content: start;
     flex-direction: column;
     align-items: center;
+  }
+  .nickname .h {
+    width: 90px;
   }
 }
