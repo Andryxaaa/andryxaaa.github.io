@@ -470,9 +470,10 @@ body .content .lenta {
 }
 
 .discord:active {
-  transform: scale(1.05) !important;
-  color: #185ef0;
+  transform: scale(1.05);
+  color: #185ef0 !important;
 }
+
 
 .world_cords .Verhnei,
 .Niznei {
