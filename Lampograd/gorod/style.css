@@ -91,10 +91,6 @@ body {
     2px 2px 3px rgba(0, 0, 0, 0.5);
   background: #1a1a1a;
 
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
   font-weight: 600;
 }
 .b1 {
@@ -113,11 +109,6 @@ body {
   box-shadow: -2px -2px 3px rgba(58, 58, 58, 0.376),
     2px 2px 3px rgba(0, 0, 0, 0.5);
   background: #1a1a1a;
-
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
   font-weight: 600;
 }
 .b3 {
@@ -137,10 +128,7 @@ body {
     2px 2px 3px rgba(0, 0, 0, 0.5);
   background: #1a1a1a;
 
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+
   font-weight: 600;
 }
 
@@ -161,10 +149,6 @@ body {
     2px 2px 3px rgba(0, 0, 0, 0.5);
   background: #1a1a1a;
 
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
   font-weight: 600;
 }
 
@@ -471,6 +455,25 @@ body .content .lenta {
   margin-top: 4px;
 }
 
+.discord {
+
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.discord:hover {
+  color: #185ef0 !important;
+  transform: scale(1.05);
+}
+
+.discord:active {
+  transform: scale(1.05) !important;
+  color: #185ef0;
+}
+
 .world_cords .Verhnei,
 .Niznei {
   display: flex;
@@ -479,7 +482,7 @@ body .content .lenta {
   font-weight: 500;
   text-shadow: 0px 2px 2px #0000005d;
 }
-.cords {
+.cords, .discord {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -491,7 +494,7 @@ body .content .lenta {
   font-weight: 800;
   text-shadow: 0px 2px 2px #0000005d;
 }
-.cords i {
+.cords i, .discord i {
   margin-left: 10px;
   margin-bottom: 7px;
 }
