@@ -91,6 +91,7 @@ body {
     2px 2px 3px rgba(0, 0, 0, 0.5);
   background: #1a1a1a;
 
+
   font-weight: 600;
 }
 .b1 {
@@ -109,6 +110,7 @@ body {
   box-shadow: -2px -2px 3px rgba(58, 58, 58, 0.376),
     2px 2px 3px rgba(0, 0, 0, 0.5);
   background: #1a1a1a;
+
   font-weight: 600;
 }
 .b3 {
@@ -148,6 +150,7 @@ body {
   box-shadow: -2px -2px 3px rgba(58, 58, 58, 0.376),
     2px 2px 3px rgba(0, 0, 0, 0.5);
   background: #1a1a1a;
+
 
   font-weight: 600;
 }
@@ -450,6 +453,7 @@ body .content .lenta {
 }
 .world_cords .fas,
 .fab {
+
   font-size: 25px;
   margin-right: 3px;
   margin-top: 4px;
@@ -473,6 +477,7 @@ body .content .lenta {
   transform: scale(1.05);
   color: #185ef0 !important;
 }
+
 
 
 .world_cords .Verhnei,
@@ -716,7 +721,6 @@ body .content .lenta {
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 7px;
-      margin-bottom: 15px;
     padding: 0;
     list-style: none;
 
