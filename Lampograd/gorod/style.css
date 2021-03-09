@@ -470,11 +470,11 @@ body .content .lenta {
 }
 .discord:hover {
   color: #185ef0 !important;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .discord:active {
-  transform: scale(1.05);
+  transform: scale(1.02);
   color: #185ef0 !important;
 }
 
