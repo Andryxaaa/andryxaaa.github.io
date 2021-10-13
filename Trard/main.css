@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Futura";
+  src: url(./fonts/Futura\ Book.ttf);
+}
+
+body {
+  color: #ffffff;
+  background: #d6d6d6;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: no;
+}
+
+html {
+  -ms-overflow-style: none; /* IE 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+::-webkit-scrollbar {
+  /* chrome based */
+  width: 0px; /* ширина scrollbar'a */
+  background: transparent; /* опционально */
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+  background: #f81157;
+  
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 641px;
+  background: #c0174a;
+  background: linear-gradient(#c0174a41, #c0174a70), url(./img/backgra.png);
+  background-size: auto;
+  background-position: 50%;
+}
+
+.content .text{
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: helvetica,serif !important;
+}
+
+.text h1 {
+  margin: 0;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 120px;
+  text-shadow: 2px 2px 6px #42011a60;
+}
+
+.text h {
+  margin: 0;
+  font-weight: 700;
+  font-size: 25px;
+  text-shadow: 2px 2px 6px #42011a6e;
+}
+
+.Name {
+  text-decoration: none;
+  display: flex;
+  width: auto;
+ align-items: center;
+  justify-content: space-between;
+}
+
+.Name h {
+  font-family: helvetica,serif !important;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a { text-decoration: none; } 
+
+.Name .logo {
+  padding-left: 20px;
+  padding-top: 4px;
+  width: 40px;
+}
+
+.menu .block_button {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.menu .block_button .b1,
+.b2,
+.b3,
+.b4 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  width: auto;
+  height: 100%;
+  padding: 20px;
+  background: #f81157;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  font-weight: 600;
+  transition: 0.2s linear;
+}
+
+.menu .block_button .b1:hover,
+.b2:hover,
+.b3:hover,
+.b4:hover {
+  transform: scale(1.05);
+  background: #ffffff;
+  color: #f81157;
+}
