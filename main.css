@@ -46,6 +46,8 @@ body {
   margin: 0;
   color: #fff;
   text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.191);
+  vertical-align: middle;
+  text-align: center; 
 }
 
 .block_info .role,
