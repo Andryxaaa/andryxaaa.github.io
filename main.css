@@ -409,8 +409,8 @@ html {
 
 .circles img:nth-child(23){
   left: 56%;
-  width: 20px;
-  height: 20px;
+  width: 21px;
+  height: 21px;
   -webkit-animation-delay: 10s;
           animation-delay: 10s;
   -webkit-animation-duration: 15s;
