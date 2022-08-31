@@ -1,15 +1,14 @@
 @font-face {
   font-family: "Futura";
+  font-display: swap;
   src: url(./Futura\ Book.ttf);
 }
 
 body {
   background: #000000;
   margin: 0;
-  overflow-x: hidden;
-  overflow-y: no;
   overflow: hidden;
-
+  font-family: "Futura";
 }
 .content {
   position: absolute;
@@ -57,7 +56,6 @@ body {
 }
 
 .block_info .text {
-  font-family: "Futura";
   font-weight: 900;
   font-size: 55px;
   margin: 0;
@@ -85,8 +83,6 @@ body {
   margin-top: 5px;
   width: 300px;
   height: 50px;
-  font-family: "Futura";
-  background-color: transparent;
 }
 
 .role .web,
@@ -143,14 +139,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #fff;
+  color: inherit;
   padding: 5px 15px;
   margin-left: 10px;
   margin-right: 10px;
   width: auto;
   height: auto;
   font-size: 22px;
-  font-family: "Futura";
+  font-family: inherit;
   text-indent: 5px;
   -webkit-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -197,6 +193,11 @@ body {
         -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
             transform: scale(1.05);
+}
+
+.contacts a {
+        color: inherit;
+        text-decoration: none;
 }
 
 .contacts .Discord:active,
@@ -641,48 +642,20 @@ html {
 
 
 @media screen and (max-width: 445px) {
-        .block_info .contacts {
-                height: 20%;
-            }
 
             .contacts .Discord,
             .Telegram,
             .Github {
-              display: -webkit-box;
-              display: -ms-flexbox;
-              display: flex;
-              color: #fff;
-              padding: 5px 15px;
-              margin-left: 10px;
-              margin-right: 10px;
-              width: auto;
-              height: auto;
               margin-top: 5px;
             }
-            
-            .Discord {
-             position: relative;
-             display: inline-block;
-            }
             .block_info .contacts {
-              display: -webkit-box;
-              display: -ms-flexbox;
-              display: flex;
               -webkit-box-orient: horizontal;
               -webkit-box-direction: normal;
                   -ms-flex-direction: column;
                       flex-direction: column;
-              -webkit-box-pack: center;
-                  -ms-flex-pack: center;
-                      justify-content: center;
-              -webkit-box-align: center;
-                  -ms-flex-align: center;
-                      align-items: center;
+
               margin-top: 35px;
-              width: 300px;
-              height: 50px;
-              font-family: "Futura";
-              background-color: transparent;
+              font-family: inherit;
             }
 
 }
