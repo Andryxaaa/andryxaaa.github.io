@@ -199,6 +199,11 @@ body {
             transform: scale(1.05);
 }
 
+.contacts a {
+        color: inherit;
+        text-decoration: none;
+}
+
 .contacts .Discord:active,
 .Telegram:active,
 .Github:active {
